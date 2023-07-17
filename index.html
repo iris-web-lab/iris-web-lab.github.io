@@ -1,0 +1,80 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+   <div class="nav">
+     <img src="logo.png" alt="iRIS logo" class="logo">
+       <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Products</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Contact</a></li>
+       </ul>
+   </div>
+   <div class="banner">
+       <h1>Welcome to iRIS</h1>
+       <p>The online store for innovative and reliable tech products</p>
+   </div>
+   <div class="products">
+       <h2>Our Featured Products</h2>
+       <div class="container">
+         <!-- Use a loop to generate the product cards from an array of objects -->
+         <!-- Each object has properties like name, image, price, and description -->
+         <!-- For example, products[0] = {name:"iRIS Laptop", image:"laptop.jpg", price:"$999", description:"A sleek and powerful laptop with a 15-inch display and 8GB RAM"} -->
+         <script>
+           // JavaScript code for the product cards generation
+           // Create an array of product objects
+           var products = [
+             {name:"iRIS Laptop", image:"laptop.jpg", price:"$999", description:"A sleek and powerful laptop with a 15-inch display and 8GB RAM"},
+             {name:"iRIS Tablet", image:"tablet.jpg", price:"$699", description:"A versatile and portable tablet with a 10-inch display and 4GB RAM"},
+             {name:"iRIS Phone", image:"phone.jpg", price:"$499", description:"A smart and reliable phone with a 6-inch display and 3GB RAM"},
+             {name:"iRIS Smartwatch", image:"watch.jpg", price:"$299", description:"A stylish and functional smartwatch with a 1.5-inch display and 1GB RAM"}
+           ];
+
+           // Loop through the array and create a card element for each product
+           for (var i = 0; i < products.length; i++) {
+             // Create a div element with the class "card"
+             var card = document.createElement("div");
+             card.className = "card";
+
+             // Create an img element with the src attribute set to the product image
+             var img = document.createElement("img");
+             img.src = products[i].image;
+
+             // Create an h3 element with the innerText set to the product name
+             var h3 = document.createElement("h3");
+             h3.innerText = products[i].name;
+
+             // Create a p element with the innerText set to the product price
+             var p1 = document.createElement("p");
+             p1.innerText = products[i].price;
+
+             // Create another p element with the innerText set to the product description
+             var p2 = document.createElement("p");
+             p2.innerText = products[i].description;
+
+             // Create a button element with the innerText set to "Buy Now"
+             var button = document.createElement("button");
+             button.innerText = "Buy Now";
+
+             // Append the img, h3, p1, p2, and button elements to the card element
+             card.appendChild(img);
+             card.appendChild(h3);
+             card.appendChild(p1);
+             card.appendChild(p2);
+             card.appendChild(button);
+
+             // Append the card element to the container element
+             document.querySelector(".container").appendChild(card);
+           }
+         </script>
+       </div>
+   </div>
+   <div class="footer">
+       <p>&copy; 2023 by iRIS. All rights reserved.</p>
+   </div>
+ </div>
+</body>
+</html>
