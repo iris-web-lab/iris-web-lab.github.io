@@ -24,3 +24,5 @@ If you want to use this yourself:🧑‍🔧
 10. If something isn't working or you need support, contact iRIS at iris.group@engineer.com (that's an email).
 
 Tip: The first two rows of both sheets are featured on the home page.
+
+If any fixes or features are added to this repository, you will sadly have to delete your own repo and redo all the steps (other than creating the spreadsheet) to get them.
