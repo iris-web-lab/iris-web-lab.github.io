@@ -26,15 +26,17 @@ If you want to use this yourself:🧑‍🔧
 ![Screenshot 7](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/dab689d4-0d84-4573-9e93-002fd2b34a06)
 
 
-4. Make two sheets in that spreadsheet, one named products and one blog.
-5. In all of the .html files replace any mention of "iRIS" with your own brand, replace logo.png (in the resources folder) with a transparent image of your own logo (name the file the same), and banner.jpeg with a (preferably) square, high quality jpeg of what you want to be the backround of the banner, also find links that look like this:
-"https://docs.google.com/spreadsheets/d/109zQw4KjhYl4UneLxvPRLINLHriIw8MwtdGx8Bvk4LY/gviz/tq?tqx=out:json&sheet=products"
-6. Replace the bunch of random letters and numbers after /d/ but before /gviz/ with the same bunch of leters and numbers you can find in the link to your spreadsheet.
-7. You can't copy and paste the entire link. These links have special instructions at the end.
-8. Make sure to fill out the spreadsheet. (example: https://docs.google.com/spreadsheets/d/1Q15iYfcVLFSmKTqjwgUbuAWdYMdW_tJKuOKlh1imGQs/)
-9. Once you've comitted all the changes go to the name of the repository as a link.
+4. Make two sheets in that spreadsheet, one named "products" and one "blog".
 
-10. If something isn't working or you need support, contact iRIS at iris.group@engineer.com (that's an email).
+
+6. In all of the .html files replace any mention of "iRIS" with your own brand, replace logo.png (in the resources folder) with a transparent image of your own logo (name the file the same), and banner.jpeg with a (preferably) square, high quality jpeg of what you want to be the backround of the banner, also find links that look like this:
+"https://docs.google.com/spreadsheets/d/109zQw4KjhYl4UneLxvPRLINLHriIw8MwtdGx8Bvk4LY/gviz/tq?tqx=out:json&sheet=products"
+7. Replace the bunch of random letters and numbers after /d/ but before /gviz/ with the same bunch of leters and numbers you can find in the link to your spreadsheet.
+8. You can't copy and paste the entire link. These links have special instructions at the end.
+9. Make sure to fill out the spreadsheet. (example: https://docs.google.com/spreadsheets/d/1Q15iYfcVLFSmKTqjwgUbuAWdYMdW_tJKuOKlh1imGQs/)
+10. Once you've comitted all the changes go to the name of the repository as a link.
+
+11. If something isn't working or you need support, contact iRIS at iris.group@engineer.com (that's an email).
 
 Tip: The first two rows of both sheets are featured on the home page.
 
