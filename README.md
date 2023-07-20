@@ -11,16 +11,19 @@ Coming soon:
 4. Product pages
 
 If you want to use this yourself:🧑‍🔧
+
 1. Fork it and make the repository name start with your own username instead of "iris-web-lab" ( yourusername.github.io ).
+
 ![Screenshot 2023-07-20 181706](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/da76eb9f-8e58-4a12-896b-d072e4afcfc6)
 ![Screenshot 2](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/29db219c-1562-439e-b31d-e7cf396868f1)
 ![Screenshot 3](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/e8af4434-5ad2-43f0-9bbf-c0738e60460a)
 
-2. Make a google sheet and set it to be accessable by anybody with link.
+3. Make a google sheet and set it to be accessable by anybody with link.
+
 ![Screenshot 4](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/f2c20017-23aa-43be-9b03-d1acea0c819d)
 ![Screenshot 5](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/0a40007a-f2fe-4e1f-9da5-45d43f8d1479)
-![Screenshot 6](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/607b4633-a507-421b-a937-1be103b08c76)
-![Screenshot 7](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/10e2d087-a580-47d5-87ec-2306451b8479)
+![Screenshot 6](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/2f55df24-7409-4422-b823-ba4d97d58d01)
+![Screenshot 7](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/dab689d4-0d84-4573-9e93-002fd2b34a06)
 
 
 4. Make two sheets in that spreadsheet, one named products and one blog.
