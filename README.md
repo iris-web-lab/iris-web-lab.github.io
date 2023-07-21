@@ -44,13 +44,11 @@ If you want to use this yourself:🧑‍🔧
 ![Screenshot 8](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/ae506358-792b-4ab2-93f2-e7913a949a89)
 
 
-6. You can't copy and paste the entire link. These links have special instructions at the end.
+6. Make sure to fill out the spreadsheet. (example: https://docs.google.com/spreadsheets/d/1Q15iYfcVLFSmKTqjwgUbuAWdYMdW_tJKuOKlh1imGQs/)
 
-7. Make sure to fill out the spreadsheet. (example: https://docs.google.com/spreadsheets/d/1Q15iYfcVLFSmKTqjwgUbuAWdYMdW_tJKuOKlh1imGQs/)
+7. Once you've comitted all the changes go to the name of the repository as a link.
 
-8. Once you've comitted all the changes go to the name of the repository as a link.
-
-9. If something isn't working or you need support, contact iRIS at iris.group@engineer.com (that's an email).
+If something isn't working or you need support, contact iRIS at iris.group@engineer.com (that's an email).
 
 Tip: The first two rows of both sheets are featured on the home page.
 
@@ -60,4 +58,6 @@ If any fixes or features are added to this repository, follow these instructions
 
 ![Screenshot 14](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/213bcd95-6ba6-49aa-9cff-7cfe52dc6698)
 
-2. Click the green "Update branch" button. Do NOT click discard changes as this will reset your fork an you will have to make all the changes all over again.
+2. Click the green "Update branch" button.
+
+Do NOT click discard changes as this will reset your fork an you will have to make all the changes all over again.
