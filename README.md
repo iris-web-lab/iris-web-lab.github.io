@@ -32,15 +32,17 @@ If you want to use this yourself:🧑‍🔧
 ![Screenshot 12](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/bb6a8d31-11a7-4c40-9dd0-c0616041e97e)
 
 
-4. In all of the .html files replace any mention of "iRIS" with your own brand, replace logo.png (in the resources folder) with a transparent image of your own logo (name the file the same), and banner.jpeg with a (preferably) square, high quality jpeg of what you want to be the backround of the banner.
+4. In all of the .html files go to the end and replace any mention of "iRIS" or any phrases with your own brand, replace logo.png (in the resources folder) with a transparent image of your own logo (name the file the same), and banner.jpeg with a (preferably) square, high quality jpeg of what you want to be the backround of the banner.
 
 ![Screenshot 13](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/1bf2b120-6d7b-40d8-ae42-dd4cf34fcfb0)
 ![Screenshot 9](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/8633df2f-27fb-4f3c-a518-f1706b3f9029)
 ![Screenshot 10](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/d2ead472-d314-4460-8687-a884439e270c)
 
 
-5. Find all the links that look like this:
-"https://docs.google.com/spreadsheets/d/109zQw4KjhYl4UneLxvPRLINLHriIw8MwtdGx8Bvk4LY/gviz/tq?tqx=out:json&sheet=products" Replace the bunch of random letters and numbers after /d/ but before /gviz/ with the same bunch of leters and numbers you can find in the link to your spreadsheet.
+5. In IDs.js (in the resources folder) replace the bunch of random letters and numbers ( var sheetId ="replace the stuff here" ) with the bunch of leters and numbers you can find in the link to your spreadsheet after /d/ and before /edit.
+
+![Screenshot 8](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/ae506358-792b-4ab2-93f2-e7913a949a89)
+
 
 6. You can't copy and paste the entire link. These links have special instructions at the end.
 
