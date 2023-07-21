@@ -28,15 +28,23 @@ If you want to use this yourself:🧑‍🔧
 
 4. Make two sheets in that spreadsheet, one named "products" and one "blog".
 
+![Screenshot 11](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/87ed1a6e-d03c-44dc-a360-d994522b17ed)
+![Screenshot 12](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/bb6a8d31-11a7-4c40-9dd0-c0616041e97e)
 
-6. In all of the .html files replace any mention of "iRIS" with your own brand, replace logo.png (in the resources folder) with a transparent image of your own logo (name the file the same), and banner.jpeg with a (preferably) square, high quality jpeg of what you want to be the backround of the banner, also find links that look like this:
-"https://docs.google.com/spreadsheets/d/109zQw4KjhYl4UneLxvPRLINLHriIw8MwtdGx8Bvk4LY/gviz/tq?tqx=out:json&sheet=products"
-7. Replace the bunch of random letters and numbers after /d/ but before /gviz/ with the same bunch of leters and numbers you can find in the link to your spreadsheet.
-8. You can't copy and paste the entire link. These links have special instructions at the end.
-9. Make sure to fill out the spreadsheet. (example: https://docs.google.com/spreadsheets/d/1Q15iYfcVLFSmKTqjwgUbuAWdYMdW_tJKuOKlh1imGQs/)
-10. Once you've comitted all the changes go to the name of the repository as a link.
 
-11. If something isn't working or you need support, contact iRIS at iris.group@engineer.com (that's an email).
+6. In all of the .html files replace any mention of "iRIS" with your own brand, replace logo.png (in the resources folder) with a transparent image of your own logo (name the file the same), and banner.jpeg with a (preferably) square, high quality jpeg of what you want to be the backround of the banner.
+
+![Screenshot 9](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/8633df2f-27fb-4f3c-a518-f1706b3f9029)
+![Screenshot 10](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/d2ead472-d314-4460-8687-a884439e270c)
+
+
+8. Find links that look like this:
+"https://docs.google.com/spreadsheets/d/109zQw4KjhYl4UneLxvPRLINLHriIw8MwtdGx8Bvk4LY/gviz/tq?tqx=out:json&sheet=products" Replace the bunch of random letters and numbers after /d/ but before /gviz/ with the same bunch of leters and numbers you can find in the link to your spreadsheet.
+9. You can't copy and paste the entire link. These links have special instructions at the end.
+10. Make sure to fill out the spreadsheet. (example: https://docs.google.com/spreadsheets/d/1Q15iYfcVLFSmKTqjwgUbuAWdYMdW_tJKuOKlh1imGQs/)
+11. Once you've comitted all the changes go to the name of the repository as a link.
+
+12. If something isn't working or you need support, contact iRIS at iris.group@engineer.com (that's an email).
 
 Tip: The first two rows of both sheets are featured on the home page.
 
