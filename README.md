@@ -34,6 +34,7 @@ If you want to use this yourself:🧑‍🔧
 
 6. In all of the .html files replace any mention of "iRIS" with your own brand, replace logo.png (in the resources folder) with a transparent image of your own logo (name the file the same), and banner.jpeg with a (preferably) square, high quality jpeg of what you want to be the backround of the banner.
 
+![Screenshot 13](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/1bf2b120-6d7b-40d8-ae42-dd4cf34fcfb0)
 ![Screenshot 9](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/8633df2f-27fb-4f3c-a518-f1706b3f9029)
 ![Screenshot 10](https://github.com/iris-web-lab/iris-web-lab.github.io/assets/82143316/d2ead472-d314-4460-8687-a884439e270c)
 
