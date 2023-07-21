@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>iRIS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resources/style.css">
+    <script src="resources/IDs.js"></script>
     <script>
       // JavaScript code for the product cards generation
       // Create an empty array of product objects
@@ -13,7 +14,7 @@
 
       // Get data from the sheet and store it in the products array
       function getDataFromSheet() {
-        fetch('https://docs.google.com/spreadsheets/d/109zQw4KjhYl4UneLxvPRLINLHriIw8MwtdGx8Bvk4LY/gviz/tq?tqx=out:json&sheet=products')
+        fetch(sheetProduct)
           .then(response => response.text())
           .then(text => {
             var json = JSON.parse(text.substr(47).slice(0, -2));
@@ -34,7 +35,7 @@
           });
       }
       function getDataFromSheetBlog() {
-        fetch('https://docs.google.com/spreadsheets/d/109zQw4KjhYl4UneLxvPRLINLHriIw8MwtdGx8Bvk4LY/gviz/tq?tqx=out:json&sheet=blog')
+        fetch(sheetBlog)
           .then(response => response.text())
           .then(text => {
             var json = JSON.parse(text.substr(47).slice(0, -2));
