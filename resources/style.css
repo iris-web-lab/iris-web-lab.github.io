@@ -184,4 +184,6 @@ width:250px;
 .notice{
     border-radius: 15px;
     border: 1px;
+    padding: 5px;
+    border-color: 000000;
 }
