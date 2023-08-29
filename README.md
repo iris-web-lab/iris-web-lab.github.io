@@ -10,7 +10,7 @@ Coming soon:
 3. Cart
 4. Product pages
 
-## This guide is deprecated. Further customizations are needed. If you know how to customize it without a guide you can still do it.
+#### This guide is deprecated. Further customizations are needed. If you know how to customize it without a guide you can still do it.
 
 If you want to use this yourself:🧑‍🔧
 
