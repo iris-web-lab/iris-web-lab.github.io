@@ -181,3 +181,7 @@ width:250px;
      }  
  }
  
+.notice{
+    border-radius: 15px;
+    border: 1px;
+}
