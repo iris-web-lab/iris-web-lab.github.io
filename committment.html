@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <!-- Google tag (gtag.js) --> 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZDH196RMV"></script> 
+        <script>
+			window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);} 
+            gtag('js', new Date());
+
+            gtag('config', 'G-VZDH196RMV');
+        </script>
+		<title>Climate Clock</title>
+		<style>
+			body {
+  			margin: 0;
+    		padding: 0;
+      		height: 100vh;
+        	background-color: black;
+        	}
+
+        	.clock {
+          	font-size: 60px;
+            color: white;
+            text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="clock">
+            <span id="time"></span>
+        </div>
+
+        <script>
+            var clock = document.getElementById("time");
+
+            setInterval(function() {
+                var now = Date.now();
+                var remainingSeconds = 365.25 * 24 * 60 * 60 - now;
+
+                clock.innerHTML = remainingSeconds + " seconds remaining";
+            }, 1000);
+        </script>
+    </body>
+</html>
