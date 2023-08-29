@@ -10,6 +10,8 @@ Coming soon:
 3. Cart
 4. Product pages
 
+## This guide is deprecated. Further customizations are needed. If you know how to customize it without a guide you can still do it.
+
 If you want to use this yourself:🧑‍🔧
 
 1. Fork it and make the repository name start with your own username instead of "iris-web-lab" ( yourusername.github.io ).
