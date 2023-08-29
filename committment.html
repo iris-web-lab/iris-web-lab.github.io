@@ -12,16 +12,16 @@
         </script>
 		<title>Climate Clock</title>
 		<style>
-			body {
+			/* body {
   			margin: 0;
     		padding: 0;
       		height: 100vh;
         	background-color: black;
-        	}
+        	} */
 
         	.clock {
           	font-size: 60px;
-            color: white;
+            color: black;
             text-align: center;
             }
         </style>
@@ -44,6 +44,7 @@
                 <h1>Our commitment</h1> 
                 <p>It's no secret that the earth has been heating up. </br > iRIS donates 2% of all profit to climate charities and we are committing to going carbon neutral by 2025.</p> 
             </div>
+            <!--
         	<div class="clock"> 
                 <span id="time"></span> 
             </div>                            
@@ -56,7 +57,9 @@
                                                                                                                          
                     clock.innerHTML = remainingSeconds + " seconds remaining"; 
                 }, 1000); 
-            </script>
+            </script> -->
+            <script src="https://climateclock.world/widget-v2.js" async></script>
+        	<climate-clock />
             <div class="footer">
                 <p>© 2023 by iRIS Group inc. All rights reserved.</p> 
             </div>
