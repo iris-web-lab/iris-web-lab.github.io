@@ -16,7 +16,8 @@
                 name: row[0].v,
                 image: row[1].v,
                 price: row[2].v,
-                description: row[3].v
+                description: row[3].v,
+                id: row[4].v
               };
               // Push the product object to the products array
               products.push(product);
@@ -44,8 +45,9 @@
           var p2 = document.createElement("p");
           p2.innerText = products[i].description;
           // Create a button element with the innerText set to "Buy Now"
-          var button = document.createElement("button");
+          var button = document.createElement("a");
           button.innerText = "Buy Now";
+          button.href = "pages/product.html?=" + products[i].id
           // Append the img, h3, p1, p2, and button elements to the card element
           card.appendChild(img);
           card.appendChild(h3);
